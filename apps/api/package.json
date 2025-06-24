@@ -24,7 +24,7 @@
     "@sentry/nextjs": "^9.22.0",
     "@t3-oss/env-nextjs": "^0.13.4",
     "import-in-the-middle": "^1.13.2",
-    "next": "15.3.2",
+    "next": "15.3.3",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "require-in-the-middle": "^7.5.2",
