@@ -48,7 +48,7 @@ const BlogIndex = async ({ params }: BlogProps) => {
               {async ([data]) => {
                 'use server';
 
-                if (!data.blog.posts.items.length) {
+                if (!data.blog?.posts?.items?.length) {
                   return null;
                 }
 

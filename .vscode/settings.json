@@ -26,11 +26,18 @@
   "typescript.tsdk": "node_modules/typescript/lib",
   "tailwindCSS.experimental.configFile": "packages/design-system/styles/globals.css",
   "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
     "**/node_modules": true,
     "**/.next": true,
     "**/out": true,
     "**/build": true,
     "**/dist": true,
     "**/package-lock.json": true
-  }
+  },
+  "hide-files.files": [],
+  "terminal.integrated.shellIntegration.history": 10000
 }
